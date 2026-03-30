@@ -15,6 +15,8 @@ int main() {
   float area1;
   float pib1;
   int pontosTuristicos1;
+  float densidade1;
+  float pibPerCapita1;
 
   // ============= CARTA 2 =============
   char estado2;
@@ -24,6 +26,8 @@ int main() {
   float area2;
   float pib2;
   int pontosTuristicos2;
+  float densidade2;
+  float pibPerCapita2;
 
   // Área para entrada de dados
 
@@ -51,7 +55,7 @@ int main() {
   printf("Numero de pontos turisticos: ");
   scanf("%d", &pontosTuristicos1);
 
-// ============= CARTA 2 =============
+  // ============= CARTA 2 =============
   printf("\n=== Cadastro da Carta 2 ===\n");
 
   printf("Estado (A-H): ");
