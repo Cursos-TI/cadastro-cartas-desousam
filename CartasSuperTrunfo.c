@@ -95,29 +95,31 @@ int main() {
 
   // Área para exibição dos dados da cidade
 
-  printf("\n=== CARTAS CADASTRADAS ===\n");
+  printf("\n=== Comparacao de Cartas ===\n");
 
-  printf("\nCarta 1:\n");
-  printf("Estado: %c\n", estado1);
-  printf("Codigo: %s\n", codigo1);
-  printf("Nome da cidade: %s\n", cidade1);
-  printf("Populacao: %d\n", populacao1);
-  printf("Area: %.2f km\n", area1);
-  printf("PIB: %.2f\n", pib1);
-  printf("Numero de pontos turisticos: %d\n", pontosTuristicos1);
-  printf("Densidade populacional: %.2f hab/km\n", densidade1);
-  printf("PIB per capita: %.2f\n", pibPerCapita1);
+  printf("Populacao: %s\n",
+       (populacao1 > populacao2 ? "Carta 1 venceu" : "Carta 2 venceu"),
+       (populacao1 > populacao2));
 
-  printf("\nCarta 2:\n");
-  printf("Estado: %c\n", estado2);
-  printf("Codigo: %s\n", codigo2);
-  printf("Nome da cidade: %s\n", cidade2);
-  printf("Populacao: %d\n", populacao2);
-  printf("Area: %.2f km\n", area2);
-  printf("PIB: %.2f\n", pib2);
-  printf("Numero de pontos turisticos: %d\n", pontosTuristicos2);
-  printf("Densidade populacional: %.2f hab/km\n", densidade2c);
-  printf("PIB per capita: %.2f\n", pibPerCapita2);
+  printf("Area: %s\n",
+       (area1 > area2 ? "Carta 1 venceu" : "Carta 2 venceu"),
+       (area1 > area2));
+
+  printf("PIB: %s\n",
+       (pib1 > pib2 ? "Carta 1 venceu" : "Carta 2 venceu"),
+       (pib1 > pib2));
+
+  printf("Pontos turisticos: %s\n",
+       (pontosTuristicos1 > pontosTuristicos2 ? "Carta 1 venceu" : "Carta 2 venceu"),
+       (pontosTuristicos1 > pontosTuristicos2));
+
+  printf("Densidade populacional: %s\n",
+       (densidade1 < densidade2 ? "Carta 1 venceu" : "Carta 2 venceu"),
+       (densidade1 < densidade2));
+
+  printf("PIB per capita: %s\n",
+       (pibPerCapita1 > pibPerCapita2 ? "Carta 1 venceu" : "Carta 2 venceu"),
+       (pibPerCapita1 > pibPerCapita2));
 
 return 0;
 } 
