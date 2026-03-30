@@ -16,6 +16,15 @@ int main() {
   float pib1;
   int pontosTuristicos1;
 
+  // ============= CARTA 2 =============
+  char estado2;
+  char codigo2[4];
+  char cidade2[50];
+  int populacao2;
+  float area2;
+  float pib2;
+  int pontosTuristicos2;
+
   // Área para entrada de dados
 
   // ============= CARTA 1 =============
