@@ -17,6 +17,7 @@ int main() {
   int pontosTuristicos1;
   float densidade1;
   float pibPerCapita1;
+  float superPoder1;
 
   // ============= CARTA 2 =============
   char estado2;
@@ -28,6 +29,7 @@ int main() {
   int pontosTuristicos2;
   float densidade2;
   float pibPerCapita2;
+  float superPoder2;
 
   // Área para entrada de dados
 
