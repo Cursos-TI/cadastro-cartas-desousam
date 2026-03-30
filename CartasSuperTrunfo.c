@@ -91,7 +91,7 @@ int main() {
 
   densidade2 = populacao2 / area2;
   pibPerCapita2 = pib2 / populacao2;
-  superPoder1 = populacao1 + area1 + pib1 + pontosTuristicos1 + pibPerCapita1 + (1 / densidade1);
+  superPoder2 = populacao2 + area2 + pib2 + pontosTuristicos2 + pibPerCapita2 + (1 / densidade1);
 
   // Área para exibição dos dados da cidade
 
