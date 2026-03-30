@@ -61,6 +61,7 @@ int main() {
 
   densidade1 = populacao1 / area1;
   pibPerCapita1 = pib1 / populacao1;
+  superPoder1 = populacao1 + area1 + pib1 + pontosTuristicos1 + pibPerCapita1 + (1 / densidade1);
 
   // ============= CARTA 2 =============
   printf("\n=== Cadastro da Carta 2 ===\n");
@@ -90,6 +91,7 @@ int main() {
 
   densidade2 = populacao2 / area2;
   pibPerCapita2 = pib2 / populacao2;
+  superPoder1 = populacao1 + area1 + pib1 + pontosTuristicos1 + pibPerCapita1 + (1 / densidade1);
 
   // Área para exibição dos dados da cidade
 
