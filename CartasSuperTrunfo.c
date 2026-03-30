@@ -18,6 +18,30 @@ int main() {
 
   // Área para entrada de dados
 
+  // ============= CARTA 1 =============
+  printf("=== Cadastro da Carta 1 ===\n");
+
+  printf("Estado (A-H): ");
+  scanf(" %c", &estado1);
+
+  printf("Codigo da carta (ex: A01): ");
+  scanf("%s", codigo1);
+
+  printf("Nome da cidade: ");
+  scanf(" %[^\n]", cidade1);
+
+  printf("Populacao: ");
+  scanf("%d", &populacao1);
+
+  printf("Area (km): ");
+  scanf("%f", &area1);
+
+  printf("PIB: ");
+  scanf("%f", &pib1);
+
+  printf("Numero de pontos turisticos: ");
+  scanf("%d", &pontosTuristicos1);
+
   // Área para exibição dos dados da cidade
 
 return 0;
